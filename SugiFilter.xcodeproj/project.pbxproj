@@ -15,6 +15,18 @@
 		47156CF920A977BB00F4B0A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47156CF720A977BB00F4B0A6 /* LaunchScreen.storyboard */; };
 		47156D0420A977BB00F4B0A6 /* SugiFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47156D0320A977BB00F4B0A6 /* SugiFilterTests.swift */; };
 		47156D0F20A977BB00F4B0A6 /* SugiFilterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47156D0E20A977BB00F4B0A6 /* SugiFilterUITests.swift */; };
+		479D23C120A97A01000F041F /* Pods_SugiFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479D23C320A97A01000F041F /* Pods_SugiFilter.framework */; };
+		479D23C220A97A01000F041F /* Pods_SugiFilterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479D23C420A97A01000F041F /* Pods_SugiFilterTests.framework */; };
+		479D23C620A97AEF000F041F /* Formatter+IntegerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D23C520A97AEF000F041F /* Formatter+IntegerExtensions.swift */; };
+		479D23C820A97B02000F041F /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D23C720A97B02000F041F /* ProductViewModel.swift */; };
+		479D23CA20A97B28000F041F /* ProductResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D23C920A97B28000F041F /* ProductResponse.swift */; };
+		479D23CC20A97B43000F041F /* ProductRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D23CB20A97B43000F041F /* ProductRequest.swift */; };
+		479D23CE20A97B5E000F041F /* ProductApiEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D23CD20A97B5E000F041F /* ProductApiEndpoints.swift */; };
+		479D23D020A97B7B000F041F /* ProductApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D23CF20A97B7B000F041F /* ProductApiClient.swift */; };
+		479D23D220A97B98000F041F /* ProductFilterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D23D120A97B98000F041F /* ProductFilterTableViewController.swift */; };
+		479D23D420A97BB5000F041F /* ProductFilterSharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D23D320A97BB5000F041F /* ProductFilterSharedData.swift */; };
+		479D23D620A97BCB000F041F /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D23D520A97BCB000F041F /* ProductViewController.swift */; };
+		479D23D820A97BE2000F041F /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D23D720A97BE2000F041F /* ProductCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3181368211722CC1A4E4E512 /* Pods-SugiFilterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugiFilterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SugiFilterTests/Pods-SugiFilterTests.debug.xcconfig"; sourceTree = "<group>"; };
 		47156CE820A977BB00F4B0A6 /* SugiFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SugiFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47156CEB20A977BB00F4B0A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47156CED20A977BB00F4B0A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +62,21 @@
 		47156D0A20A977BB00F4B0A6 /* SugiFilterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SugiFilterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47156D0E20A977BB00F4B0A6 /* SugiFilterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugiFilterUITests.swift; sourceTree = "<group>"; };
 		47156D1020A977BB00F4B0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479D23C320A97A01000F041F /* Pods_SugiFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SugiFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		479D23C420A97A01000F041F /* Pods_SugiFilterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SugiFilterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		479D23C520A97AEF000F041F /* Formatter+IntegerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Formatter+IntegerExtensions.swift"; sourceTree = "<group>"; };
+		479D23C720A97B02000F041F /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		479D23C920A97B28000F041F /* ProductResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductResponse.swift; sourceTree = "<group>"; };
+		479D23CB20A97B43000F041F /* ProductRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRequest.swift; sourceTree = "<group>"; };
+		479D23CD20A97B5E000F041F /* ProductApiEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductApiEndpoints.swift; sourceTree = "<group>"; };
+		479D23CF20A97B7B000F041F /* ProductApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductApiClient.swift; sourceTree = "<group>"; };
+		479D23D120A97B98000F041F /* ProductFilterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductFilterTableViewController.swift; sourceTree = "<group>"; };
+		479D23D320A97BB5000F041F /* ProductFilterSharedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductFilterSharedData.swift; sourceTree = "<group>"; };
+		479D23D520A97BCB000F041F /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		479D23D720A97BE2000F041F /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		537E8B5EB3CE8D0E9560B588 /* Pods-SugiFilterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugiFilterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SugiFilterTests/Pods-SugiFilterTests.release.xcconfig"; sourceTree = "<group>"; };
+		F5AC1FFA232FDA297F59339F /* Pods-SugiFilter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugiFilter.release.xcconfig"; path = "Pods/Target Support Files/Pods-SugiFilter/Pods-SugiFilter.release.xcconfig"; sourceTree = "<group>"; };
+		F6A7BDED8A5E2591E4CA0E0F /* Pods-SugiFilter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugiFilter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SugiFilter/Pods-SugiFilter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				479D23C120A97A01000F041F /* Pods_SugiFilter.framework in Frameworks */,
+				479D23C220A97A01000F041F /* Pods_SugiFilterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +106,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02E3821CF194501CDE811D47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				479D23C320A97A01000F041F /* Pods_SugiFilter.framework */,
+				479D23C420A97A01000F041F /* Pods_SugiFilterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		47156CDF20A977BB00F4B0A6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				47156D0220A977BB00F4B0A6 /* SugiFilterTests */,
 				47156D0D20A977BB00F4B0A6 /* SugiFilterUITests */,
 				47156CE920A977BB00F4B0A6 /* Products */,
+				E4C8324AC2B1F86BB1657200 /* Pods */,
+				02E3821CF194501CDE811D47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +147,16 @@
 				47156CF720A977BB00F4B0A6 /* LaunchScreen.storyboard */,
 				47156CFA20A977BB00F4B0A6 /* Info.plist */,
 				47156CF220A977BB00F4B0A6 /* SugiFilter.xcdatamodeld */,
+				479D23C520A97AEF000F041F /* Formatter+IntegerExtensions.swift */,
+				479D23C720A97B02000F041F /* ProductViewModel.swift */,
+				479D23C920A97B28000F041F /* ProductResponse.swift */,
+				479D23CB20A97B43000F041F /* ProductRequest.swift */,
+				479D23CD20A97B5E000F041F /* ProductApiEndpoints.swift */,
+				479D23CF20A97B7B000F041F /* ProductApiClient.swift */,
+				479D23D120A97B98000F041F /* ProductFilterTableViewController.swift */,
+				479D23D320A97BB5000F041F /* ProductFilterSharedData.swift */,
+				479D23D520A97BCB000F041F /* ProductViewController.swift */,
+				479D23D720A97BE2000F041F /* ProductCollectionViewCell.swift */,
 			);
 			path = SugiFilter;
 			sourceTree = "<group>";
@@ -128,6 +179,17 @@
 			path = SugiFilterUITests;
 			sourceTree = "<group>";
 		};
+		E4C8324AC2B1F86BB1657200 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6A7BDED8A5E2591E4CA0E0F /* Pods-SugiFilter.debug.xcconfig */,
+				F5AC1FFA232FDA297F59339F /* Pods-SugiFilter.release.xcconfig */,
+				3181368211722CC1A4E4E512 /* Pods-SugiFilterTests.debug.xcconfig */,
+				537E8B5EB3CE8D0E9560B588 /* Pods-SugiFilterTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47156D1320A977BB00F4B0A6 /* Build configuration list for PBXNativeTarget "SugiFilter" */;
 			buildPhases = (
+				95A9D12C62B2CDE31CA392B9 /* [CP] Check Pods Manifest.lock */,
 				47156CE420A977BB00F4B0A6 /* Sources */,
 				47156CE520A977BB00F4B0A6 /* Frameworks */,
 				47156CE620A977BB00F4B0A6 /* Resources */,
+				7583DDCF16037D4E34979BFB /* [CP] Embed Pods Frameworks */,
+				D5CDE2AEB5218C91CE692AB7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47156D1620A977BB00F4B0A6 /* Build configuration list for PBXNativeTarget "SugiFilterTests" */;
 			buildPhases = (
+				C6CBCA2C498BA98859DC1A10 /* [CP] Check Pods Manifest.lock */,
 				47156CFB20A977BB00F4B0A6 /* Sources */,
 				47156CFC20A977BB00F4B0A6 /* Frameworks */,
 				47156CFD20A977BB00F4B0A6 /* Resources */,
+				38ECE8627C60D68C7CAB87F5 /* [CP] Embed Pods Frameworks */,
+				12B399B26121249445C23D57 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,14 +325,149 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12B399B26121249445C23D57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugiFilterTests/Pods-SugiFilterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38ECE8627C60D68C7CAB87F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SugiFilterTests/Pods-SugiFilterTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugiFilterTests/Pods-SugiFilterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7583DDCF16037D4E34979BFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SugiFilter/Pods-SugiFilter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya-ObjectMapper/Moya_ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftRangeSlider/SwiftRangeSlider.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftRangeSlider.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugiFilter/Pods-SugiFilter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95A9D12C62B2CDE31CA392B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SugiFilter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6CBCA2C498BA98859DC1A10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SugiFilterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5CDE2AEB5218C91CE692AB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugiFilter/Pods-SugiFilter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		47156CE420A977BB00F4B0A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				479D23CA20A97B28000F041F /* ProductResponse.swift in Sources */,
+				479D23D020A97B7B000F041F /* ProductApiClient.swift in Sources */,
+				479D23D420A97BB5000F041F /* ProductFilterSharedData.swift in Sources */,
 				47156CEE20A977BB00F4B0A6 /* ViewController.swift in Sources */,
 				47156CEC20A977BB00F4B0A6 /* AppDelegate.swift in Sources */,
+				479D23CE20A97B5E000F041F /* ProductApiEndpoints.swift in Sources */,
+				479D23D820A97BE2000F041F /* ProductCollectionViewCell.swift in Sources */,
+				479D23D620A97BCB000F041F /* ProductViewController.swift in Sources */,
 				47156CF420A977BB00F4B0A6 /* SugiFilter.xcdatamodeld in Sources */,
+				479D23CC20A97B43000F041F /* ProductRequest.swift in Sources */,
+				479D23D220A97B98000F041F /* ProductFilterTableViewController.swift in Sources */,
+				479D23C620A97AEF000F041F /* Formatter+IntegerExtensions.swift in Sources */,
+				479D23C820A97B02000F041F /* ProductViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +631,7 @@
 		};
 		47156D1420A977BB00F4B0A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6A7BDED8A5E2591E4CA0E0F /* Pods-SugiFilter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +646,7 @@
 		};
 		47156D1520A977BB00F4B0A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5AC1FFA232FDA297F59339F /* Pods-SugiFilter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +661,7 @@
 		};
 		47156D1720A977BB00F4B0A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3181368211722CC1A4E4E512 /* Pods-SugiFilterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +678,7 @@
 		};
 		47156D1820A977BB00F4B0A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 537E8B5EB3CE8D0E9560B588 /* Pods-SugiFilterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

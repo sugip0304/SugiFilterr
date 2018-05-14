@@ -1,0 +1,6 @@
+framework module Pods_SugiFilterTests {
+  umbrella header "Pods-SugiFilterTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
