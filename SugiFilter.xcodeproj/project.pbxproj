@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47156CEC20A977BB00F4B0A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47156CEB20A977BB00F4B0A6 /* AppDelegate.swift */; };
+		47156CEE20A977BB00F4B0A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47156CED20A977BB00F4B0A6 /* ViewController.swift */; };
+		47156CF120A977BB00F4B0A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47156CEF20A977BB00F4B0A6 /* Main.storyboard */; };
+		47156CF420A977BB00F4B0A6 /* SugiFilter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47156CF220A977BB00F4B0A6 /* SugiFilter.xcdatamodeld */; };
+		47156CF620A977BB00F4B0A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47156CF520A977BB00F4B0A6 /* Assets.xcassets */; };
+		47156CF920A977BB00F4B0A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47156CF720A977BB00F4B0A6 /* LaunchScreen.storyboard */; };
+		47156D0420A977BB00F4B0A6 /* SugiFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47156D0320A977BB00F4B0A6 /* SugiFilterTests.swift */; };
+		47156D0F20A977BB00F4B0A6 /* SugiFilterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47156D0E20A977BB00F4B0A6 /* SugiFilterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47156D0020A977BB00F4B0A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47156CE020A977BB00F4B0A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47156CE720A977BB00F4B0A6;
+			remoteInfo = SugiFilter;
+		};
+		47156D0B20A977BB00F4B0A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47156CE020A977BB00F4B0A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47156CE720A977BB00F4B0A6;
+			remoteInfo = SugiFilter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47156CE820A977BB00F4B0A6 /* SugiFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SugiFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47156CEB20A977BB00F4B0A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47156CED20A977BB00F4B0A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47156CF020A977BB00F4B0A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47156CF320A977BB00F4B0A6 /* SugiFilter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SugiFilter.xcdatamodel; sourceTree = "<group>"; };
+		47156CF520A977BB00F4B0A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47156CF820A977BB00F4B0A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47156CFA20A977BB00F4B0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47156CFF20A977BB00F4B0A6 /* SugiFilterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SugiFilterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47156D0320A977BB00F4B0A6 /* SugiFilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugiFilterTests.swift; sourceTree = "<group>"; };
+		47156D0520A977BB00F4B0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47156D0A20A977BB00F4B0A6 /* SugiFilterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SugiFilterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47156D0E20A977BB00F4B0A6 /* SugiFilterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugiFilterUITests.swift; sourceTree = "<group>"; };
+		47156D1020A977BB00F4B0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47156CE520A977BB00F4B0A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47156CFC20A977BB00F4B0A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47156D0720A977BB00F4B0A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47156CDF20A977BB00F4B0A6 = {
+			isa = PBXGroup;
+			children = (
+				47156CEA20A977BB00F4B0A6 /* SugiFilter */,
+				47156D0220A977BB00F4B0A6 /* SugiFilterTests */,
+				47156D0D20A977BB00F4B0A6 /* SugiFilterUITests */,
+				47156CE920A977BB00F4B0A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47156CE920A977BB00F4B0A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47156CE820A977BB00F4B0A6 /* SugiFilter.app */,
+				47156CFF20A977BB00F4B0A6 /* SugiFilterTests.xctest */,
+				47156D0A20A977BB00F4B0A6 /* SugiFilterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47156CEA20A977BB00F4B0A6 /* SugiFilter */ = {
+			isa = PBXGroup;
+			children = (
+				47156CEB20A977BB00F4B0A6 /* AppDelegate.swift */,
+				47156CED20A977BB00F4B0A6 /* ViewController.swift */,
+				47156CEF20A977BB00F4B0A6 /* Main.storyboard */,
+				47156CF520A977BB00F4B0A6 /* Assets.xcassets */,
+				47156CF720A977BB00F4B0A6 /* LaunchScreen.storyboard */,
+				47156CFA20A977BB00F4B0A6 /* Info.plist */,
+				47156CF220A977BB00F4B0A6 /* SugiFilter.xcdatamodeld */,
+			);
+			path = SugiFilter;
+			sourceTree = "<group>";
+		};
+		47156D0220A977BB00F4B0A6 /* SugiFilterTests */ = {
+			isa = PBXGroup;
+			children = (
+				47156D0320A977BB00F4B0A6 /* SugiFilterTests.swift */,
+				47156D0520A977BB00F4B0A6 /* Info.plist */,
+			);
+			path = SugiFilterTests;
+			sourceTree = "<group>";
+		};
+		47156D0D20A977BB00F4B0A6 /* SugiFilterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47156D0E20A977BB00F4B0A6 /* SugiFilterUITests.swift */,
+				47156D1020A977BB00F4B0A6 /* Info.plist */,
+			);
+			path = SugiFilterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47156CE720A977BB00F4B0A6 /* SugiFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47156D1320A977BB00F4B0A6 /* Build configuration list for PBXNativeTarget "SugiFilter" */;
+			buildPhases = (
+				47156CE420A977BB00F4B0A6 /* Sources */,
+				47156CE520A977BB00F4B0A6 /* Frameworks */,
+				47156CE620A977BB00F4B0A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SugiFilter;
+			productName = SugiFilter;
+			productReference = 47156CE820A977BB00F4B0A6 /* SugiFilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47156CFE20A977BB00F4B0A6 /* SugiFilterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47156D1620A977BB00F4B0A6 /* Build configuration list for PBXNativeTarget "SugiFilterTests" */;
+			buildPhases = (
+				47156CFB20A977BB00F4B0A6 /* Sources */,
+				47156CFC20A977BB00F4B0A6 /* Frameworks */,
+				47156CFD20A977BB00F4B0A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47156D0120A977BB00F4B0A6 /* PBXTargetDependency */,
+			);
+			name = SugiFilterTests;
+			productName = SugiFilterTests;
+			productReference = 47156CFF20A977BB00F4B0A6 /* SugiFilterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47156D0920A977BB00F4B0A6 /* SugiFilterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47156D1920A977BB00F4B0A6 /* Build configuration list for PBXNativeTarget "SugiFilterUITests" */;
+			buildPhases = (
+				47156D0620A977BB00F4B0A6 /* Sources */,
+				47156D0720A977BB00F4B0A6 /* Frameworks */,
+				47156D0820A977BB00F4B0A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47156D0C20A977BB00F4B0A6 /* PBXTargetDependency */,
+			);
+			name = SugiFilterUITests;
+			productName = SugiFilterUITests;
+			productReference = 47156D0A20A977BB00F4B0A6 /* SugiFilterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47156CE020A977BB00F4B0A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sugi Pringgandani";
+				TargetAttributes = {
+					47156CE720A977BB00F4B0A6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					47156CFE20A977BB00F4B0A6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47156CE720A977BB00F4B0A6;
+					};
+					47156D0920A977BB00F4B0A6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47156CE720A977BB00F4B0A6;
+					};
+				};
+			};
+			buildConfigurationList = 47156CE320A977BB00F4B0A6 /* Build configuration list for PBXProject "SugiFilter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47156CDF20A977BB00F4B0A6;
+			productRefGroup = 47156CE920A977BB00F4B0A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47156CE720A977BB00F4B0A6 /* SugiFilter */,
+				47156CFE20A977BB00F4B0A6 /* SugiFilterTests */,
+				47156D0920A977BB00F4B0A6 /* SugiFilterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47156CE620A977BB00F4B0A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47156CF920A977BB00F4B0A6 /* LaunchScreen.storyboard in Resources */,
+				47156CF620A977BB00F4B0A6 /* Assets.xcassets in Resources */,
+				47156CF120A977BB00F4B0A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47156CFD20A977BB00F4B0A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47156D0820A977BB00F4B0A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47156CE420A977BB00F4B0A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47156CEE20A977BB00F4B0A6 /* ViewController.swift in Sources */,
+				47156CEC20A977BB00F4B0A6 /* AppDelegate.swift in Sources */,
+				47156CF420A977BB00F4B0A6 /* SugiFilter.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47156CFB20A977BB00F4B0A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47156D0420A977BB00F4B0A6 /* SugiFilterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47156D0620A977BB00F4B0A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47156D0F20A977BB00F4B0A6 /* SugiFilterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47156D0120A977BB00F4B0A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47156CE720A977BB00F4B0A6 /* SugiFilter */;
+			targetProxy = 47156D0020A977BB00F4B0A6 /* PBXContainerItemProxy */;
+		};
+		47156D0C20A977BB00F4B0A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47156CE720A977BB00F4B0A6 /* SugiFilter */;
+			targetProxy = 47156D0B20A977BB00F4B0A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47156CEF20A977BB00F4B0A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47156CF020A977BB00F4B0A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47156CF720A977BB00F4B0A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47156CF820A977BB00F4B0A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47156D1120A977BB00F4B0A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47156D1220A977BB00F4B0A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47156D1420A977BB00F4B0A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SugiFilter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SugiP.SugiFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47156D1520A977BB00F4B0A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SugiFilter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SugiP.SugiFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47156D1720A977BB00F4B0A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SugiFilterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SugiP.SugiFilterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SugiFilter.app/SugiFilter";
+			};
+			name = Debug;
+		};
+		47156D1820A977BB00F4B0A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SugiFilterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SugiP.SugiFilterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SugiFilter.app/SugiFilter";
+			};
+			name = Release;
+		};
+		47156D1A20A977BB00F4B0A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SugiFilterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SugiP.SugiFilterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SugiFilter;
+			};
+			name = Debug;
+		};
+		47156D1B20A977BB00F4B0A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SugiFilterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SugiP.SugiFilterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SugiFilter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47156CE320A977BB00F4B0A6 /* Build configuration list for PBXProject "SugiFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47156D1120A977BB00F4B0A6 /* Debug */,
+				47156D1220A977BB00F4B0A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47156D1320A977BB00F4B0A6 /* Build configuration list for PBXNativeTarget "SugiFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47156D1420A977BB00F4B0A6 /* Debug */,
+				47156D1520A977BB00F4B0A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47156D1620A977BB00F4B0A6 /* Build configuration list for PBXNativeTarget "SugiFilterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47156D1720A977BB00F4B0A6 /* Debug */,
+				47156D1820A977BB00F4B0A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47156D1920A977BB00F4B0A6 /* Build configuration list for PBXNativeTarget "SugiFilterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47156D1A20A977BB00F4B0A6 /* Debug */,
+				47156D1B20A977BB00F4B0A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		47156CF220A977BB00F4B0A6 /* SugiFilter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				47156CF320A977BB00F4B0A6 /* SugiFilter.xcdatamodel */,
+			);
+			currentVersion = 47156CF320A977BB00F4B0A6 /* SugiFilter.xcdatamodel */;
+			path = SugiFilter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 47156CE020A977BB00F4B0A6 /* Project object */;
+}
